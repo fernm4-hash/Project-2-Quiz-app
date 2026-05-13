@@ -32,8 +32,8 @@
 
 ### scores table
 
-| Column | Type | Description |
-|---|---|---|
+| Column | Type |
+|---|---|
 | id | INT, Primary Key, Auto Increment | 
 | user_id | INT | 
 | score | INT | 
