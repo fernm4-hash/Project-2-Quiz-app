@@ -17,43 +17,29 @@
 - This project was developed using XAMPP with Apache and MySQL
 
 ## Database Tables
-# QuizQuest
 
-## Description
-QuizQuest is a PHP/MySQL quiz web application that allows users to create accounts, take quizzes, view scores, and compete on a leaderboard.
+## Database Schema
 
-## Features
-- User signup/login
-- Session authentication
-- Randomized quiz questions
-- Dynamic question amounts
-- Score tracking
-- Profile statistics
-- Leaderboard
-- Results review
+### users table
 
-## Technologies Used
-- PHP
-- MySQL
-- HTML/CSS
-- JSON
-- XAMPP
+| Column | Type | Description |
+|---|---|---|
+| id | INT, Primary Key, Auto Increment | Unique user ID |
+| username | VARCHAR(50) | User's username |
+| email | VARCHAR(100) | User's email address |
+| password | VARCHAR(255) | Hashed password |
+| created_at | TIMESTAMP | Date account was created |
 
-## Running the Project
+### scores table
 
-1. Start Apache and MySQL in XAMPP
-2. Place project folder inside htdocs
-3. Import the database into phpMyAdmin
-4. Navigate to:
-   http://localhost/quiz-app
-
-## Database Tables
-- users
-- scores
-
-## Author
-Mike Wells
-
+| Column | Type | Description |
+|---|---|---|
+| id | INT, Primary Key, Auto Increment | Unique score ID |
+| user_id | INT | ID of the user who took the quiz |
+| score | INT | Number of questions answered correctly |
+| total_questions | INT | Number of questions in the quiz |
+| percentage | DOUBLE/FLOAT | Score percentage |
+| created_at | TIMESTAMP | Date the quiz was taken |
 
 
 
