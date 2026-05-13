@@ -2,6 +2,21 @@
 
 ## Project Introduction
 
+## Features
+- User signup/login
+- Randomized quiz questions
+- User gets to pick question amount
+- shows past quiz attempts
+- Profile statistics
+- Leaderboard
+- Results review
+
+
+## Running the Project
+
+- This project was developed using XAMPP with Apache and MySQL
+
+## Database Tables
 # QuizQuest
 
 ## Description
@@ -38,6 +53,8 @@ QuizQuest is a PHP/MySQL quiz web application that allows users to create accoun
 
 ## Author
 Mike Wells
+
+
 
 
 
