@@ -22,24 +22,24 @@
 
 ### users table
 
-| Column | Type | Description |
-|---|---|---|
-| id | INT, Primary Key, Auto Increment | Unique user ID |
-| username | VARCHAR(50) | User's username |
-| email | VARCHAR(100) | User's email address |
-| password | VARCHAR(255) | Hashed password |
-| created_at | TIMESTAMP | Date account was created |
+| Column | Type | 
+|---|---|
+| id | INT, Primary Key, Auto Increment |
+| username | VARCHAR(50) |
+| email | VARCHAR(100) | 
+| password | VARCHAR(255) | 
+| created_at | TIMESTAMP | 
 
 ### scores table
 
 | Column | Type | Description |
 |---|---|---|
-| id | INT, Primary Key, Auto Increment | Unique score ID |
-| user_id | INT | ID of the user who took the quiz |
-| score | INT | Number of questions answered correctly |
-| total_questions | INT | Number of questions in the quiz |
-| percentage | DOUBLE/FLOAT | Score percentage |
-| created_at | TIMESTAMP | Date the quiz was taken |
+| id | INT, Primary Key, Auto Increment | 
+| user_id | INT | 
+| score | INT | 
+| total_questions | INT | 
+| percentage | DOUBLE/FLOAT | 
+| created_at | TIMESTAMP |
 
 
 
